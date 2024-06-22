@@ -23,6 +23,9 @@
 #### mint
 Mints new tokens and adds them to the recipient's balance and the total supply.
 
+### burn
+Burns tokens from a holder's balance, reducing the total supply.
+
 
 ```solidity
 function mint(address recipient, uint256 _value) public
